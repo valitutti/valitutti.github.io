@@ -6,44 +6,29 @@
 					},
 			
 		"animation": ["join",
-						["base", "wordAlpha", "linear", 2, {"amount": 0}],
 						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
-						["base", "wordAlpha", "linear", 3.2, {"amount": 0}],
 						["add",
 							["base", "x", "linear", 0.5, {"amount": -3}],
 							["base", "wordRed", "linear-range", 0.5, {"init": 255, "end": 0}],
 							["base", "wordGreen", "linear-range", 0.5, {"init": 0, "end": 255}]
 						],
-						
-						["base", "x", "linear", 6.5, {"amount": 0}],
-						
 						["add",
 							["base", "wordRed", "linear-range", 0.8, {"init": 0, "end": 255}],
 							["base", "wordBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
 							["base", "wordAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
 						],
-						["base", "x", "linear", 5.2, {"amount": 0}],
 						["add",
 							["base", "x", "linear", 0.5, {"amount": 2.5}],
 							["base", "y", "linear", 0.5, {"amount": 3.5}]							
 						],
-						
-						
-						
 						["base", "wordAlpha", "linear-range", 0.9, {"init": 255, "end": 100}],
-						["base", "wordAlpha", "linear", 15.6, {"amount": 0}],
 						["add",
 							["base", "x", "linear", 0.5, {"amount": -3.5}],
 							["base", "y", "linear", 0.5, {"amount": -3.5}],
 							["base", "wordAlpha", "linear-range", 0.5, {"init": 100, "end": 255}],
 							["base", "wordBlue", "linear-range", 0.8, {"init": 255, "end": 0}]					
 						],
-					
-						["base", "x", "linear", 3.2, {"amount": 0}],
 						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
-						
-						
-						
 								
 				 	]
 	
