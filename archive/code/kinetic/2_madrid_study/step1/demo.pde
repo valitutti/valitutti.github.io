@@ -1,3 +1,5 @@
+//------------------------------------------------------------------------
+
 float fiboX=1;
 
 float fps = 50;
@@ -20,6 +22,7 @@ KLine l;
 
 KString clock;
 
+//------------------------------------------------------------------------
 
 void setup(){
   size(window.innerWidth, window.innerHeight);
@@ -129,6 +132,7 @@ void setup(){
 
 }
 
+//------------------------------------------------------------------------
 
 void draw(){
   
@@ -148,6 +152,7 @@ void draw(){
 
 }
 
+//------------------------------------------------------------------------
 
 
 void update(ArrayList kObjects){
@@ -167,6 +172,7 @@ void update(ArrayList kObjects){
   }
 }
 
+//------------------------------------------------------------------------
 
 void display(ArrayList kObjects){
   for (el : kObjects){
@@ -198,6 +204,7 @@ class KString {
     float wordAlpha;
     float wordShearX, wordShearY;
 
+//------------------------------------------------------------------------
 
 
     KString(String newText, float newX, float newY){
@@ -222,6 +229,7 @@ class KString {
        wordShearY = 0;
     }
     
+//------------------------------------------------------------------------
   
   void display(){
     
@@ -269,6 +277,7 @@ class KString {
     smooth();
   }
   
+//------------------------------------------------------------------------
 
 
 
@@ -329,6 +338,7 @@ class KString {
 
   }
 
+//------------------------------------------------------------------------
 
 
 ArrayList<Float> updateBase(String attribute, String label, float t0, float duration, 
@@ -352,6 +362,7 @@ ArrayList<Float> updateBase(String attribute, String label, float t0, float dura
       return outlist;
 }
 
+//------------------------------------------------------------------------
 
 
 
@@ -418,6 +429,7 @@ ArrayList<Float> updateLinear(String attribute, float t0, float duration, float 
   return outlist;
 }
 
+//------------------------------------------------------------------------
 
 ArrayList<Float> updateLinearRange(String attribute, float t0, float duration, 
                                   float init, float end) {
@@ -465,6 +477,7 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
   return outlist;
 }
 
+//------------------------------------------------------------------------
 
 
 
@@ -516,6 +529,7 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
     return duration;   
   }
   
+//------------------------------------------------------------------------
 
 }
 
@@ -530,6 +544,7 @@ class KLine {
     boolean lineColorFlag;
     float lineAlpha;
 
+//------------------------------------------------------------------------
 
 
     KLine(float newX1, float newY1, float newX2, float newY2){
@@ -544,7 +559,8 @@ class KLine {
        
     }
 
-  
+ //------------------------------------------------------------------------
+ 
 
   void display(){
 
@@ -592,7 +608,9 @@ class KLine {
     line(l.location1.x, l.location1.y, l.location2.x, l.location2.y);
   }
 
-  void update(Object animation) {
+ //------------------------------------------------------------------------
+
+void update(Object animation) {
     update1(animation, 0.0);
   }
 
@@ -648,6 +666,7 @@ class KLine {
 
   }
 
+//------------------------------------------------------------------------
 
 
 ArrayList<Float> updateBase(String attribute, String label, float t0, float duration, 
@@ -671,6 +690,7 @@ ArrayList<Float> updateBase(String attribute, String label, float t0, float dura
       return outlist;
 }
 
+//------------------------------------------------------------------------
 
 ArrayList<Float> updateLinear(String attribute, float t0, float duration, float amount) {
 
@@ -750,6 +770,7 @@ ArrayList<Float> updateLinear(String attribute, float t0, float duration, float 
   return outlist;
 }
 
+//------------------------------------------------------------------------
 
 
 ArrayList<Float> updateLinearRange(String attribute, float t0, float duration, 
@@ -806,6 +827,7 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
   return outlist;
 }
 
+//------------------------------------------------------------------------
 
 
 
@@ -859,6 +881,7 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
     return duration;   
   }
 
+//------------------------------------------------------------------------
 
 
 }
