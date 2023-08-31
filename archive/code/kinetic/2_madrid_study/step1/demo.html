@@ -1,44 +1,17 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-<title>Title</title>
-
-<!--
-<style type="text/css">
-    *
-    {
-        border: 0px;
-        margin: 0px;
-        padding: 0px;
-    }
-    canvas
-    {
-		display: block;
-    }
-    body
-    {
-		margin: 0px;
-    }
-</style>
--->
-
-<script src="jquery.min.js"></script>
-<script src="processing.js"></script>
-
-
-<script>
-	var newData;
-    $.getJSON('animation1.json', function(data) {
-	newData = data;
-    });
-</script>
-
-
-
+	<title>Title</title>
+	<script src="jquery.min.js"></script>
+	<script src="processing.js"></script>
+	<script>
+		var newData;
+    		$.getJSON('animation1.json', function(data) {
+		newData = data;
+    		});
+	</script>
 </head>
 <body>
-<canvas data-processing-sources="demo.pde"></canvas>
-
+	<canvas data-processing-sources="demo.pde"></canvas>
 </body>
 </html>
