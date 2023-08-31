@@ -1,0 +1,987 @@
+[	
+	{"object": {"class": "k-line",
+				"attributes": {"x1": 260, "y1": 240, "x2": 250, "y2": 360, "lineColorFlag": "false", 
+								"lineRed": 0, "lineGreen": 255, "lineBlue": 0,
+								"lineAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x1", "linear", 7, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x1", "linear", 5.2, {"amount": 0}],
+					["add",
+						["base", "lineRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+					],
+					["base", "x1", "linear", 3.2, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": -10}]
+					
+					
+					
+				]
+	
+	},
+
+
+
+	{"object": {"class": "k-line",
+				"attributes": {"x1": 550, "y1": 240, "x2": 520, "y2": 360, 
+								"lineColorFlag": "false", 
+								"lineRed": 0, "lineGreen": 255, "lineBlue": 0,
+								"lineAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x1", "linear", 7, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x1", "linear", 5.2, {"amount": 0}],
+					["add",
+						["base", "lineRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+					],					
+					["base", "x1", "linear", 3.2, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": -10}]
+					
+					
+				]
+	
+	},
+	
+	
+	
+
+	
+
+	{"object": {"class": "k-line",
+				"attributes": {"x1": 200, "y1": 110, "x2": 230, "y2": 170, "lineColorFlag": "false", 
+								"lineRed": 0, "lineGreen": 255, "lineBlue": 0,
+								"lineAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x1", "linear", 9, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x1", "linear", 3.2, {"amount": 0}],
+					["add",
+						["base", "lineRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+					],	
+					["base", "x1", "linear", 3.2, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": -10}]
+					
+					
+				]
+	
+	},
+
+
+
+
+	{"object": {"class": "k-line",
+				"attributes": {"x1": 650, "y1": 115, "x2": 580, "y2": 170, "lineColorFlag": "false", 
+								"lineRed": 0, "lineGreen": 255, "lineBlue": 0,
+								"lineAlpha": 0}
+				},
+			
+	"animation": ["join",					
+					["base", "x1", "linear", 9, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x1", "linear", 3.2, {"amount": 0}],
+					["add",
+						["base", "lineRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+					],
+					["base", "x1", "linear", 3.2, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": -10}]
+
+					
+				]
+	
+	},
+
+	
+	
+	{"object": {"class": "k-line",
+				"attributes": {"x1": 340, "y1": 115, "x2": 340, "y2": 115, "lineColorFlag": "false", 
+								"lineRed": 0, "lineGreen": 255, "lineBlue": 0,
+								"lineAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x1", "linear", 11, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.1, {"amount": 100}],
+					["add",
+						["base", "x2", "linear", 0.3, {"amount": 8}],
+						["base", "y2", "linear", 0.3, {"amount": 3.5}]
+					],
+					["base", "x1", "linear", 1.6, {"amount": 0}],
+					["add",
+						["base", "lineRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "lineAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+					],
+					["base", "x1", "linear", 4, {"amount": 0}],
+					["base", "lineAlpha", "linear", 0.8, {"amount": -30}]
+
+					
+				]
+	
+	},
+	
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "Last night I dreamt", "x": 100, "y": 50, "wordColorFlag": "false", 
+								"wordRed": 0, "wordGreen": 0, "wordBlue": 255,
+								 "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 24, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x", "linear", 15.2, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+				]
+	
+	},	
+	
+	
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "We", "x": 10, "y": 35, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 0, "wordBlue": 255,
+								"wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 16, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x", "linear", 4.2, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": 2.7}],
+						["base", "y", "linear", 0.5, {"amount": 10.5}]						
+					],
+					["base", "x", "linear", 6.5, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": -10}]
+					
+					
+				]
+	},
+
+
+
+
+
+
+
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "I was", "x": 505, "y": 90, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 165, "wordBlue": 0,
+								 "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 13, {"amount": 0}],
+					["base", "wordAlpha", "linear-range", 0.8, {"init": 0, "end": 255}],
+					["base", "x", "linear", 6.2, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": -16}],						
+						["base", "y", "linear", 0.5, {"amount": 6}]						
+					],
+					["base", "x", "linear", 5.5, {"amount": 0}],
+					["add",
+						["base", "y", "linear", 1, {"amount": -2.8}],
+						["base", "x", "linear", 1, {"amount": 0.3}],
+						["base", "wordRed", "linear-range", 1, {"init": 255, "end": 0}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 165, "end": 0}],			
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]				
+					],
+					
+					["base", "x", "linear", 13, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+					
+				]
+	
+	},
+	
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "playing the saxophone", "x": 600, "y": 90, "wordColorFlag": "false", 
+								"wordRed": 0, "wordGreen": 255, "wordBlue": 0,
+								"wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 10, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x", "linear", 2.2, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "wordGreen", "linear-range", 0.8, {"init": 255, "end": 165}]
+					],
+					["base", "x", "linear", 0.2, {"amount": 0}],
+					["base", "x", "linear", 6, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": -16}],						
+						["base", "y", "linear", 0.5, {"amount": 6}]						
+					],
+					["base", "x", "linear", 5.5, {"amount": 0}],
+					["add",
+						["base", "y", "linear", 1, {"amount": -2.8}],
+						["base", "x", "linear", 1, {"amount": 0.3}],
+						["base", "wordRed", "linear-range", 1, {"init": 255, "end": 0}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 165, "end": 0}],			
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]			
+					],
+					
+					["base", "x", "linear", 13, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+					
+				]
+	
+	},
+	
+
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "with", "x": 417, "y": 200, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 165, "wordBlue": 0,
+								 "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 14, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					
+					
+					["base", "x", "linear", 4, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 1, {"amount": 2}],					
+						["base", "y", "linear", 1, {"amount": -1}]						
+					],
+					["base", "x", "linear", 0.2, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": 2.4}],						
+						["base", "y", "linear", 0.5, {"amount": 3.8}]						
+					],
+					["base", "x", "linear", 5.5, {"amount": 0}],
+					["add",
+						["base", "y", "linear", 1, {"amount": -2.8}],
+						["base", "x", "linear", 1, {"amount": 0.3}],
+						["base", "wordRed", "linear-range", 1, {"init": 255, "end": 0}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 165, "end": 0}],			
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]						
+					],
+					
+					["base", "x", "linear", 13, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+				]
+	
+	},
+
+
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "Kenny G", "x": 500, "y": 200, "wordColorFlag": "false", 
+								"wordRed": 0, "wordGreen": 255, "wordBlue": 0,
+								"wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 8, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x", "linear", 0.2, {"amount": 0}],
+					["base", "x", "linear", 5, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "wordGreen", "linear-range", 0.8, {"init": 255, "end": 165}]
+					],
+					["base", "x", "linear", 4, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 1, {"amount": 2}],					
+						["base", "y", "linear", 1, {"amount": -1}]
+					],
+					["base", "x", "linear", 0.2, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": 2.4}],						
+						["base", "y", "linear", 0.5, {"amount": 3.8}]						
+					],
+					["base", "x", "linear", 5.5, {"amount": 0}],
+					["add",
+						["base", "y", "linear", 1, {"amount": -2.8}],
+						["base", "x", "linear", 1, {"amount": 0.3}],
+						["base", "wordRed", "linear-range", 1, {"init": 255, "end": 0}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 165, "end": 0}],			
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]						
+					],
+					
+					["base", "x", "linear", 13, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+				
+					
+					
+				]
+	
+	},
+	
+	
+	
+	{"object": {"class": "k-string",
+				"attributes": {"text": ".", "x": 640, "y": 200, "wordColorFlag": "false", 
+					"wordRed": 255, "wordGreen": 165, "wordBlue": 0,
+					 "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 14, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					
+					["base", "x", "linear", 4, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 1, {"amount": 2}],					
+						["base", "y", "linear", 1, {"amount": -1}]						
+					],
+					["base", "x", "linear", 0.2, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": 2.4}],						
+						["base", "y", "linear", 0.5, {"amount": 3.8}]						
+					],
+					["base", "x", "linear", 5.5, {"amount": 0}],
+					["add",
+						["base", "y", "linear", 1, {"amount": -2.8}],
+						["base", "x", "linear", 1, {"amount": 0.3}],
+						["base", "wordRed", "linear-range", 1, {"init": 255, "end": 0}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 165, "end": 0}],			
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]						
+					],
+					["base", "wordAlpha", "linear-range", 1, {"init": 255, "end": 0}],	
+					["base", "x", "linear", 12, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+				]
+	
+	},
+
+
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "when", "x": 100, "y": 153, "wordColorFlag": "false", 
+					"wordRed": 0, "wordGreen": 0, "wordBlue": 255, "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 29, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					
+					["base", "x", "linear", 11, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+					
+				]
+	
+	},	
+	
+	
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "we", "x": 87, "y": 308, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 0, "wordBlue": 255,
+								 "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 28, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],			
+					["base", "x", "linear", 0.2, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": 4.3}],
+						["base", "y", "linear", 0.5, {"amount": -6}],
+						["base", "wordRed", "linear-range", 0.5, {"init": 255, "end": 0}]
+					],
+					
+					["base", "x", "linear", 10.5, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+				]
+	},
+	
+	
+				
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "were neutralized with the power of", "x": 65, "y": 35, 
+					"wordColorFlag": "false", 
+					"wordRed": 255, "wordGreen": 0, "wordBlue": 255,
+					 "wordAlpha": 0}
+			},
+			
+	"animation": ["join",
+					["base", "x", "linear", 16, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x", "linear", 4.2, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": 2.7}],
+						["base", "y", "linear", 0.5, {"amount": 10.5}]						
+					],
+					["base", "x", "linear", 0.5, {"amount": 0.2}],
+					["base", "x", "linear", 7, {"amount": 0}],
+					
+					
+					["add",
+						["base", "x", "linear", 0.5, {"amount": 4.3}],
+						["base", "y", "linear", 0.5, {"amount": -6}],
+						["base", "wordRed", "linear-range", 0.5, {"init": 255, "end": 0}]						
+					],
+					
+					["base", "x", "linear", 10.5, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+					
+				]
+	
+	},
+	
+
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "positive thinking", "x": 80, "y": 90, "wordColorFlag": "false", 
+								"wordRed": 0, "wordGreen": 255, "wordBlue": 0,
+								"wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x1", "linear", 10, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x", "linear", 2.2, {"amount": 0}],
+					
+					["add",
+						["base", "wordRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "wordBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "wordAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+					],
+					
+					["base", "x", "linear", 3.2, {"amount": 0}],
+					
+					["add",
+						["base", "wordGreen", "linear-range", 0.8, {"init": 0, "end": 0}],
+						["base", "wordAlpha", "linear-range", 0.8, {"init": 100, "end": 255}]
+					],
+					
+					["base", "x", "linear", 3.2, {"amount": 0}],
+					
+					
+					["add",
+						["base", "x", "linear", 0.5, {"amount": 2.7}],
+						["base", "y", "linear", 0.5, {"amount": 10.5}]						
+					],
+					["base", "x", "linear", 1, {"amount": 0}],
+					
+					
+					
+					["base", "x", "linear", 6.5, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": -2}],
+						["base", "y", "linear", 0.5, {"amount": -6}],
+						["base", "wordRed", "linear-range", 0.5, {"init": 255, "end": 0}]					
+					],
+					
+					["base", "x", "linear", 10.5, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+					
+					
+				]
+	
+	},
+
+
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "by", "x": 100, "y": 200, "wordColorFlag": "false", 
+					"wordRed": 255, "wordGreen": 0, "wordBlue": 255,
+					 "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 18, {"amount": 0}],
+					["add",
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+						["base", "x", "linear", 1, {"amount": -1}],					
+						["base", "y", "linear", 1, {"amount": -1}]						
+					],
+					["base", "x", "linear", 2, {"amount": 0}],
+					
+					
+					["add",
+						["base", "x", "linear", 1, {"amount": 7.8}],					
+						["base", "y", "linear", 1, {"amount": 4.2}]						
+					],
+					["base", "x", "linear", 7, {"amount": 0}],
+					
+					["add",
+						["base", "x", "linear", 0.5, {"amount": -2}],
+						["base", "y", "linear", 0.5, {"amount": -6}],
+						["base", "wordRed", "linear-range", 0.5, {"init": 255, "end": 0}]					
+					],
+					
+					["base", "x", "linear", 10.5, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+					
+				]
+	
+	},
+	
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "Tony Robbins", "x": 150, "y": 200, "wordColorFlag": "false", 
+								"wordRed": 0, "wordGreen": 255, "wordBlue": 0,
+								"wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 8, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x", "linear", 4.2, {"amount": 0}],
+					
+					["add",
+						["base", "wordRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "wordBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+						["base", "wordAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+					],
+					
+					["base", "x", "linear", 4.2, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 1, {"amount": -1}],					
+						["base", "y", "linear", 1, {"amount": -1}]	,
+						["base", "wordGreen", "linear-range", 0.8, {"init": 255, "end": 0}],
+						["base", "wordAlpha", "linear-range", 0.8, {"init": 100, "end": 255}]
+					],
+					["base", "x", "linear", 2, {"amount": 0}],
+					
+					
+					
+					["add",
+						["base", "x", "linear", 1, {"amount": 7.8}],					
+						["base", "y", "linear", 1, {"amount": 4.2}]						
+					],
+					
+					
+					
+					["base", "x", "linear", 7, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": -2}],
+						["base", "y", "linear", 0.5, {"amount": -6}],
+						["base", "wordRed", "linear-range", 0.5, {"init": 255, "end": 0}]						
+					],
+					
+					["base", "x", "linear", 10.5, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+
+
+					
+					
+					
+				]
+	
+	},
+	
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": ".", "x": 730, "y": 363, "wordColorFlag": "false", 
+					"wordRed": 255, "wordGreen": 0, "wordBlue": 255,
+					 "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 22, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					["base", "x", "linear", 0.2, {"amount": 0}],
+					["base", "x", "linear", 6, {"amount": 0}],
+					["add",
+						["base", "x", "linear", 0.5, {"amount": -2}],
+						["base", "y", "linear", 0.5, {"amount": -6}],
+						["base", "wordRed", "linear-range", 0.5, {"init": 255, "end": 0}]						
+					],
+					
+					["base", "x", "linear", 10.5, {"amount": 0}],
+					["add",
+						["base", "wordRed", "linear-range", 1, {"init": 0, "end": 255}],				
+						["base", "wordGreen", "linear-range", 1, {"init": 0, "end": 255}]
+					]
+					
+				]
+	
+	},
+
+
+
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "I guess", "x": 100, "y": 300, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 255, "wordBlue": 0,  "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 31, {"amount": 0}],
+					["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					
+					["base", "x", "linear", 8.2, {"amount": 0}],
+					["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]				
+					
+					
+				]
+	
+	},
+	
+
+		{"object": {"class": "k-string",
+					"attributes": {"text": "Tony Robbins", "x": 150, "y": 200, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 255, "wordBlue": 255, "wordAlpha": 0}
+					},
+			
+		"animation": ["join",
+						["base", "x", "linear", 17.8, {"amount": 0}],
+						["add",							
+							["base", "wordAlpha", "linear", 0.8, {"amount": 2}],
+							["base", "x", "linear", 1, {"amount": 11}],
+							["base", "y", "linear", 1, {"amount": 5.5}]
+						],
+						["base", "x", "linear", 12.2, {"amount": 0}],
+						["add",							
+							["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+							["base", "x", "linear", 1, {"amount": -9.4}],
+							["base", "y", "linear", 1, {"amount": -3.5}],
+							["base", "wordBlue", "linear-range", 0.5, {"init": 255, "end": 0}]
+						],
+					
+						["base", "x", "linear", 8.2, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+					
+					]
+	
+		},
+
+
+
+		{"object": {"class": "k-string",
+					"attributes": {"text": "and", "x": 475, "y": 300, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 255, "wordBlue": 0,
+								"wordAlpha": 0}
+					},
+			
+		"animation": ["join",
+						["base", "x", "linear", 32, {"amount": 0}],
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					
+						["base", "x", "linear", 7.2, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+					
+					]
+	
+		},
+
+
+
+	{"object": {"class": "k-string",
+				"attributes": {"text": "Kenny G", "x": 500, "y": 200, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 255, "wordBlue": 255, "wordAlpha": 0}
+				},
+			
+	"animation": ["join",
+					["base", "x", "linear", 17.8, {"amount": 0}],
+					["add",							
+						["base", "wordAlpha", "linear", 0.8, {"amount": 2}],
+						["base", "x", "linear", 0.7, {"amount": 6}],
+						["base", "y", "linear", 0.7, {"amount": 9}]
+					],
+					["base", "x", "linear", 2, {"amount": 0}],
+					["base", "x", "linear", 12.2, {"amount": 0}],
+					["add",							
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+						["base", "x", "linear", 1, {"amount": -3.3}],
+						["base", "y", "linear", 1, {"amount": -4.4}],
+						["base", "wordBlue", "linear-range", 0.5, {"init": 255, "end": 0}]
+					],
+					
+						["base", "x", "linear", 6.2, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+				
+					
+					
+				]
+	
+	},
+
+
+
+		{"object": {"class": "k-string",
+					"attributes": {"text": "represent warring parts of my personality:", "x": 100, "y": 350, 
+						"wordColorFlag": "false", 
+														"wordRed": 255, "wordGreen": 255, "wordBlue": 0,
+														 "wordAlpha": 0}
+					},
+			
+		"animation": ["join",
+						["base", "x", "linear", 34, {"amount": 0}],
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					
+						["base", "x", "linear", 6, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+					
+					]
+	
+		},
+
+
+
+		{"object": {"class": "k-string",
+					"attributes": {"text": "the", "x": 100, "y": 400, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 255, "wordBlue": 0,
+								 "wordAlpha": 0}
+					},
+			
+		"animation": ["join",
+						["base", "x", "linear", 35, {"amount": 0}],
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					
+						["base", "x", "linear", 5, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+					
+					]
+	
+		},
+	
+	
+
+
+
+	
+	{"object": {"class": "k-string",
+					"attributes": {"text": "inspiring", "x": 270, "y": 400, "wordRed": 255,
+									"wordGreen": 0, "wordBlue": 0, "wordColorFlag": "false", 
+									"wordAlpha": 0}
+					},
+			
+		"animation": ["join",
+						["base", "wordAlpha", "linear", 2, {"amount": 0}],
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+						["base", "wordAlpha", "linear", 3.2, {"amount": 0}],
+						["add",
+							["base", "x", "linear", 0.5, {"amount": -3}],
+							["base", "wordRed", "linear-range", 0.5, {"init": 255, "end": 0}],
+							["base", "wordGreen", "linear-range", 0.5, {"init": 0, "end": 255}]
+						],
+						
+						["base", "x", "linear", 6.5, {"amount": 0}],
+						
+						["add",
+							["base", "wordRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+							["base", "wordBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+							["base", "wordAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+						],
+						["base", "x", "linear", 5.2, {"amount": 0}],
+						["add",
+							["base", "x", "linear", 0.5, {"amount": 2.5}],
+							["base", "y", "linear", 0.5, {"amount": 3.5}]							
+						],
+						
+						
+						
+						["base", "wordAlpha", "linear-range", 0.9, {"init": 255, "end": 100}],
+						["base", "wordAlpha", "linear", 15.6, {"amount": 0}],
+						["add",
+							["base", "x", "linear", 0.5, {"amount": -3.5}],
+							["base", "y", "linear", 0.5, {"amount": -3.5}],
+							["base", "wordAlpha", "linear-range", 0.5, {"init": 100, "end": 255}],
+							["base", "wordBlue", "linear-range", 0.8, {"init": 255, "end": 0}]					
+						],
+					
+						["base", "x", "linear", 3.2, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+						
+						
+						
+								
+				 	]
+	
+		},
+	
+	
+	
+	{"object": {"class": "k-string",
+					"attributes": {"text": "vs.", "x": 440, "y": 400, "wordColorFlag": "false", 
+									"wordRed": 255, "wordGreen": 0, "wordBlue": 0, 
+									"wordAlpha": 0}
+					},
+			
+		"animation": ["join",
+						["base", "wordAlpha", "linear", 4, {"amount": 0}],
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+						["base", "wordAlpha", "linear", 1.2, {"amount": 0}],
+						["add",
+							["base", "x", "linear", 0.5, {"amount": -3}],
+							["base", "wordRed", "linear", 0.5, {"amount": -10}],
+							["base", "wordGreen", "linear", 0.5, {"amount": 10}]
+						],
+						
+						["base", "x", "linear", 6.5, {"amount": 0}],
+						
+						["add",
+							["base", "wordRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+							["base", "wordBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+							["base", "wordAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+						],
+						
+						["base", "x", "linear", 5.2, {"amount": 0}],
+						["add",
+							["base", "x", "linear", 0.5, {"amount": 2.5}],
+							["base", "y", "linear", 0.5, {"amount": 3.5}]							
+						],
+						
+						
+						
+						["base", "wordAlpha", "linear-range", 0.9, {"init": 255, "end": 100}],
+						["base", "wordAlpha", "linear", 15.6, {"amount": 0}],
+						["add",
+							["base", "x", "linear", 0.5, {"amount": -3.5}],
+							["base", "y", "linear", 0.5, {"amount": -3.5}],
+							["base", "wordAlpha", "linear-range", 0.5, {"init": 100, "end": 255}],
+							["base", "wordBlue", "linear-range", 0.8, {"init": 255, "end": 0}]							
+						],
+					
+						["base", "x", "linear", 3.2, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+						
+						
+						
+						
+				 	]
+	
+		},
+	
+	
+	
+		{"object": {"class": "k-string",
+					"attributes": {"text": "uninspiring", "x": 500, "y": 400, "wordColorFlag": "false", 
+									"wordRed": 255, "wordGreen": 0, "wordBlue": 0, 
+									"wordAlpha": 0}
+					},
+			
+		"animation": ["join",
+						["base", "wordAlpha", "linear", 5, {"amount": 0}],
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+						["base", "wordAlpha", "linear", 0.2, {"amount": 0}],
+						["add",
+							["base", "x", "linear", 0.5, {"amount": -3}],
+							["base", "wordRed", "linear", 0.5, {"amount": -10}],
+							["base", "wordGreen", "linear", 0.5, {"amount": 10}]
+						],
+						
+						["base", "x", "linear", 6.5, {"amount": 0}],
+						
+						["add",
+							["base", "wordRed", "linear-range", 0.8, {"init": 0, "end": 255}],
+							["base", "wordBlue", "linear-range", 0.8, {"init": 0, "end": 255}],
+							["base", "wordAlpha", "linear-range", 0.8, {"init": 255, "end": 100}]
+						],
+						
+						["base", "x", "linear", 5.2, {"amount": 0}],
+						
+						["add",
+							["base", "x", "linear", 0.5, {"amount": 2.5}],
+							["base", "y", "linear", 0.5, {"amount": 3.5}]							
+						],
+						
+						
+						
+						["base", "wordAlpha", "linear-range", 0.9, {"init": 255, "end": 100}],
+						["base", "wordAlpha", "linear", 15.6, {"amount": 0}],
+						["add",
+							["base", "x", "linear", 0.5, {"amount": -3.5}],
+							["base", "y", "linear", 0.5, {"amount": -3.5}],
+							["base", "wordAlpha", "linear-range", 0.5, {"init": 100, "end": 255}],
+							["base", "wordBlue", "linear-range", 0.8, {"init": 255, "end": 0}]							
+						],
+					
+						["base", "x", "linear", 3.2, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+						
+						
+				 	]
+	
+		},
+
+
+
+		{"object": {"class": "k-string",
+					"attributes": {"text": "sides.", "x": 600, "y": 400, "wordColorFlag": "false", 
+								"wordRed": 255, "wordGreen": 255, "wordBlue": 0, "wordAlpha": 0}
+					},
+			
+		"animation": ["join",
+						["base", "x", "linear", 37, {"amount": 0}],
+						["base", "wordAlpha", "linear", 0.8, {"amount": 10}],
+					
+						["base", "x", "linear", 2.2, {"amount": 0}],
+						["base", "wordBlue", "linear-range", 1, {"init": 0, "end": 255}]
+					
+					]
+	
+		}
+	
+
+	
+
+
+
+
+
+	
+
+	
+]
