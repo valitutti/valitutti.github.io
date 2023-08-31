@@ -30,7 +30,6 @@ void setup(){
   background(255);
   time = 0;
   
-
   kObjects = new ArrayList();
   
   for (el : newData){
@@ -48,13 +47,7 @@ void setup(){
         float x, y;
 
         s = new KString(textContent, 10, 100);  
-
-//        x = (float) window.innerWidth/2 + attributes.x;  
-//        s.location.x = x - s.wordWidth/2;   
         s.location.x = attributes.x;   
-
-//        y = (float) window.innerHeight/2 + attributes.y;  
-//        s.location.y = y - s.wordHeight/2;   
         s.location.y = attributes.y;   
       
         if(attributes.wordColor != null) {
@@ -79,9 +72,6 @@ void setup(){
         if(attributes.wordAlpha != null) {
           s.wordAlpha = attributes.wordAlpha;
         }
-        
-//        s.content = animation[2];
-        
         triple.add(s);
         kObjects.add(triple);              
       }
@@ -129,14 +119,12 @@ void setup(){
       
   }
 
-
 }
 
 //------------------------------------------------------------------------
 
 void draw(){
   
-//  background(255);
   background(0);
   smooth();
   frameRate(fps);
@@ -145,10 +133,6 @@ void draw(){
 
   update(kObjects);
   display(kObjects);
-
-//  clock.content = time;
-//  clock.display();
-
 
 }
 
@@ -211,11 +195,9 @@ class KString {
        content = newText;
        location = new PVector(newX, newY);
        fontName = "Lucida Grande";
-//       fontSize = 50;
        fontSize = 35;
-       font = createFont("Lucida Grande", fontSize); // OK
+       font = createFont("Lucida Grande", fontSize);
        textFont(font);
-//       wordColor = "white";
        wordColor = "black";
        wordColorFlag = true;
        wordRed = 0;
@@ -279,14 +261,9 @@ class KString {
   
 //------------------------------------------------------------------------
 
-
-
-
   void update(Object animation) {
     update1(animation, 0.0);
   }
-
-
 
   void update1(Object animation, Float t0) {
     String label = (String) animation[0];
@@ -318,9 +295,6 @@ class KString {
           update1(animation[i], dur);          
         }
       }
-
-
-
      
     }
    
@@ -339,7 +313,6 @@ class KString {
   }
 
 //------------------------------------------------------------------------
-
 
 ArrayList<Float> updateBase(String attribute, String label, float t0, float duration, 
       Object parameters) {
@@ -363,8 +336,6 @@ ArrayList<Float> updateBase(String attribute, String label, float t0, float dura
 }
 
 //------------------------------------------------------------------------
-
-
 
 ArrayList<Float> updateLinear(String attribute, float t0, float duration, float amount) {
 
@@ -479,9 +450,6 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
 
 //------------------------------------------------------------------------
 
-
-
-
   Float getDuration(Object animation) {
     Float duration = 0.0;
 
@@ -504,10 +472,6 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
               maxDur = n; 
            } 
         }
-        
-
-
-
        duration = maxDur;
     }
    
@@ -523,9 +487,6 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
          }
          duration = sumDur;
     }
-
-
-
     return duration;   
   }
   
@@ -546,7 +507,6 @@ class KLine {
 
 //------------------------------------------------------------------------
 
-
     KLine(float newX1, float newY1, float newX2, float newY2){
       
        location1 = new PVector(newX1, newY1);
@@ -561,10 +521,7 @@ class KLine {
 
  //------------------------------------------------------------------------
  
-
   void display(){
-
-
     if(lineColorFlag) {
        if(lineColor.equals("black")) {
            lineRed = 0;
@@ -601,8 +558,6 @@ class KLine {
        } 
     }
     
-    
-//    stroke(color(250, 250, 250, l.lineAlpha));
     stroke(color(lineRed, lineGreen, lineBlue, l.lineAlpha));
     strokeWeight(3);
     line(l.location1.x, l.location1.y, l.location2.x, l.location2.y);
@@ -613,8 +568,6 @@ class KLine {
 void update(Object animation) {
     update1(animation, 0.0);
   }
-
-
 
   void update1(Object animation, Float t0) {
     String label = (String) animation[0];
@@ -647,9 +600,6 @@ void update(Object animation) {
         }
       }
 
-
-
-     
     }
    
     else if (label.equals("loop")){
@@ -663,11 +613,9 @@ void update(Object animation) {
       update1(animation2, 0.0);     
     }
 
-
   }
 
 //------------------------------------------------------------------------
-
 
 ArrayList<Float> updateBase(String attribute, String label, float t0, float duration, 
       Object parameters) {
@@ -697,7 +645,6 @@ ArrayList<Float> updateLinear(String attribute, float t0, float duration, float 
   ArrayList<Float> outlist = new ArrayList<Float>();
   float initial = 0;
   float outvalue = 0;
-  
 
   if(attribute.equals("x1")){
     initial = location1.x;
@@ -772,7 +719,6 @@ ArrayList<Float> updateLinear(String attribute, float t0, float duration, float 
 
 //------------------------------------------------------------------------
 
-
 ArrayList<Float> updateLinearRange(String attribute, float t0, float duration, 
                                   float init, float end) {
 
@@ -829,11 +775,6 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
 
 //------------------------------------------------------------------------
 
-
-
-
-
-
   Float getDuration(Object animation) {
     Float duration = 0.0;
 
@@ -856,10 +797,6 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
               maxDur = n; 
            } 
         }
-        
-
-
-
        duration = maxDur;
     }
    
@@ -875,13 +812,9 @@ ArrayList<Float> updateLinearRange(String attribute, float t0, float duration,
          }
          duration = sumDur;
     }
-
-
-
     return duration;   
   }
 
 //------------------------------------------------------------------------
-
 
 }
