@@ -8,9 +8,9 @@ function setup() {
 function draw() {
   background(220);
   t = frameCount/60;
-  x = x + update_linear(t, 2, 3);
+  x = x + update_linear(t, 2, 7);
   rect(x, 81, 63, 63);
-  text(round(t, 0), width / 2, height / 2);
+  text(round(t, 1), width / 2, height / 2);
 }
 
 function update_linear(t, start_time, duration) {
