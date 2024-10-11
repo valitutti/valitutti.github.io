@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Il sito personale di [Il Tuo Nome]">
-    <meta name="keywords" content="Il Tuo Nome, progetti, python, app, coding">
-    <meta name="author" content="[Il Tuo Nome]">
-    <title>Il Sito di [Il Tuo Nome]</title>
+    <meta name="description" content="Il sito personale di Alessandro Valitutti">
+    <meta name="keywords" content="Alessandro Valitutti, progetti, python, app, coding">
+    <meta name="author" content="Alessandro Valitutti">
+    <title>Il Sito di Alessandro Valitutti</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,12 +26,47 @@
         .container {
             text-align: center;
         }
+        .language-switch {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Benvenuto nel sito di [Il Tuo Nome]</h1>
-        <p>Questa pagina è in costruzione. Presto qui troverai i miei progetti e molto altro!</p>
+    <!-- Selettore della lingua -->
+    <div class="language-switch">
+        <button onclick="switchToItalian()">Italiano</button>
+        <button onclick="switchToEnglish()">English</button>
     </div>
+
+    <!-- Contenuto in italiano -->
+    <div id="content-it" class="container">
+        <h1>Benvenuto nel sito di Alessandro Valitutti</h1>
+        <p>Questa pagina è in costruzione. Presto qui troverai i miei progetti e molto altro!</p>
+        <p>Attualmente lavoro su vari progetti di programmazione, e puoi scoprire di più su ciascuno di essi qui presto.</p>
+        <p>Per qualsiasi domanda o per collaborazioni, non esitare a contattarmi.</p>
+    </div>
+
+    <!-- Contenuto in inglese -->
+    <div id="content-en" class="container" style="display: none;">
+        <h1>Welcome to Alessandro Valitutti's website</h1>
+        <p>This page is under construction. Soon you will find my projects and more here!</p>
+        <p>I am currently working on various programming projects, and you will be able to discover more about each of them here soon.</p>
+        <p>If you have any questions or wish to collaborate, feel free to contact me.</p>
+    </div>
+
+    <script>
+        // Funzioni per cambiare lingua
+        function switchToItalian() {
+            document.getElementById('content-it').style.display = 'block';
+            document.getElementById('content-en').style.display = 'none';
+        }
+
+        function switchToEnglish() {
+            document.getElementById('content-it').style.display = 'none';
+            document.getElementById('content-en').style.display = 'block';
+        }
+    </script>
 </body>
 </html>
