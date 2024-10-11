@@ -16,27 +16,42 @@
         <button onclick="switchToEnglish()">English</button>
     </div>
 
-    <!-- Menu di navigazione -->
-    <nav>
+    <!-- Menu di navigazione in italiano -->
+    <nav id="menu-it">
         <ul class="menu">
             <li><a href="#">Presentazione</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Personale</a></li>
         </ul>
     </nav>
 
     <!-- Contenuto in italiano -->
     <div id="content-it" class="container">
-        <p>Questo sito è in costruzione. Presto qui troverai i miei progetti e altro ancora!</p>
+        <div class="text-box">
+            <p>Questo sito è in costruzione. Presto qui troverai i miei progetti e altro ancora!</p>
+        </div>
     </div>
 
     <!-- Nota in italiano -->
-    <p class="note"><small>I contenuti di questo sito verranno creati facendo uso massiccio dell'intelligenza artificiale, e saranno pertanto di tipo ibrido. Salvo diversa indicazione, i testi non saranno interamente creati da me.</small></p>
+    <div class="text-box">
+        <p class="note"><small>I contenuti di questo sito verranno creati facendo uso massiccio dell'intelligenza artificiale, e saranno pertanto di tipo ibrido. Salvo diversa indicazione, i testi non saranno interamente creati da me.</small></p>
+    </div>
+
+    <!-- Menu di navigazione in inglese (nascosto di default) -->
+    <nav id="menu-en" style="display: none;">
+        <ul class="menu">
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
 
     <!-- Contenuto in inglese (nascosto di default) -->
     <div id="content-en" class="container" style="display: none;">
-        <p>This page is under construction. Soon you will find my projects and more here!</p>
-        <p class="note"><small>The content of this site will be created using extensive artificial intelligence, and will therefore be hybrid in nature. Unless otherwise specified, the texts will not be entirely created by me.</small></p>
+        <div class="text-box">
+            <p>This page is under construction. Soon you will find my projects and more here!</p>
+        </div>
+        <div class="text-box">
+            <p class="note"><small>The content of this site will be created using extensive artificial intelligence, and will therefore be hybrid in nature. Unless otherwise specified, the texts will not be entirely created by me.</small></p>
+        </div>
     </div>
 
     <!-- JavaScript -->
