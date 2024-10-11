@@ -1,80 +1,66 @@
-/* Imposta l'immagine come sfondo */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-image: url('https://valitutti.github.io/static/img/ale_logo.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Il sito personale di Alessandro Valitutti">
+    <meta name="keywords" content="Alessandro Valitutti, progetti, python, app, coding, intelligenza artificiale">
+    <meta name="author" content="Alessandro Valitutti">
+    <title>Il Sito di Alessandro Valitutti</title>
+    <link rel="stylesheet" href="https://valitutti.github.io/static/css/styles.css">
+</head>
+<body>
+    <!-- Selettore della lingua -->
+    <div class="language-switch">
+        <button onclick="switchToItalian()">Italiano</button>
+        <button onclick="switchToEnglish()">English</button>
+    </div>
 
-/* Dimensione caratteri più leggibile */
-p {
-    font-size: 1.5rem;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 20px auto;
-}
+    <!-- Menu di navigazione in italiano -->
+    <nav id="menu-it">
+        <ul class="menu">
+            <li><a href="#">Presentazione</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
 
-h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
+    <!-- Contenuto in italiano -->
+    <div id="content-it" class="container">
+        <p>Questo sito è in costruzione. Presto qui troverai i miei progetti e altro ancora!</p>
+    </div>
 
-/* Menu di navigazione */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-}
+    <!-- Nota in italiano -->
+    <p class="note"><small>I contenuti di questo sito verranno creati facendo uso massiccio dell'intelligenza artificiale, e saranno pertanto di tipo ibrido. Salvo diversa indicazione, i testi non saranno interamente creati da me.</small></p>
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
+    <!-- Menu di navigazione in inglese (nascosto di default) -->
+    <nav id="menu-en" style="display: none;">
+        <ul class="menu">
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
 
-nav ul li a:hover {
-    color: #3498db;
-}
+    <!-- Contenuto in inglese (nascosto di default) -->
+    <div id="content-en" class="container" style="display: none;">
+        <p>This page is under construction. Soon you will find my projects and more here!</p>
+        <p class="note"><small>The content of this site will be created using extensive artificial intelligence, and will therefore be hybrid in nature. Unless otherwise specified, the texts will not be entirely created by me.</small></p>
+    </div>
 
-/* Selettore della lingua */
-.language-switch {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
+    <!-- JavaScript -->
+    <script>
+        function switchToItalian() {
+            document.getElementById('content-it').style.display = 'block';
+            document.getElementById('content-en').style.display = 'none';
+            document.getElementById('menu-it').style.display = 'block';
+            document.getElementById('menu-en').style.display = 'none';
+        }
 
-.language-switch button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-left: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.language-switch button:hover {
-    background-color: #2980b9;
-}
-
-/* Nota */
-.note {
-    font-size: 1.2rem;
-    color: #ddd;
-}
+        function switchToEnglish() {
+            document.getElementById('content-it').style.display = 'none';
+            document.getElementById('content-en').style.display = 'block';
+            document.getElementById('menu-it').style.display = 'none';
+            document.getElementById('menu-en').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
