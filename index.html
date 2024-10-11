@@ -7,31 +7,8 @@
     <meta name="keywords" content="Alessandro Valitutti, progetti, python, app, coding">
     <meta name="author" content="Alessandro Valitutti">
     <title>Il Sito di Alessandro Valitutti</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: #333;
-        }
-        h1 {
-            font-size: 3rem;
-            color: #333;
-        }
-        .container {
-            text-align: center;
-        }
-        .language-switch {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-        }
-    </style>
+    <!-- Collegamento al file CSS -->
+    <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
     <!-- Selettore della lingua -->
@@ -56,17 +33,7 @@
         <p>If you have any questions or wish to collaborate, feel free to contact me.</p>
     </div>
 
-    <script>
-        // Funzioni per cambiare lingua
-        function switchToItalian() {
-            document.getElementById('content-it').style.display = 'block';
-            document.getElementById('content-en').style.display = 'none';
-        }
-
-        function switchToEnglish() {
-            document.getElementById('content-it').style.display = 'none';
-            document.getElementById('content-en').style.display = 'block';
-        }
-    </script>
+    <!-- Collegamento al file JavaScript -->
+    <script src="static/js/scripts.js"></script>
 </body>
 </html>
