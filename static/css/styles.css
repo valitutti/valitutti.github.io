@@ -29,9 +29,9 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Riquadro centrale per il testo */
+/* Riquadro centrale per il testo, più scuro */
 .text-box {
-    background-color: rgba(0, 0, 0, 0.7); /* Grigio scuro semi-trasparente */
+    background-color: rgba(0, 0, 0, 0.85); /* Grigio scuro molto più opaco */
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
